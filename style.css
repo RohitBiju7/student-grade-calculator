@@ -40,7 +40,7 @@ input {
     box-sizing: border-box;
 }
 
-/* Calculate Button */
+/* Calculate & Reset Button */
 button {
     width: 140px;
     height: 40px;
@@ -59,29 +59,6 @@ button:hover {
     transform: scale(1.1);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
-
-/* Reset Button */
-button {
-    width: 140px;
-    height: 40px;
-    padding: 10px;
-    margin-top: 15px;
-    background-color: #2c3e50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    box-sizing: border-box;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-}
-
-
-
 
 /* for the result display */
 #display-result {
